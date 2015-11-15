@@ -3,7 +3,8 @@
   var foodWebApp = angular.module('foodWebApp', [
     'ngRoute',
     'foodWebControllers',
-    'chart.js'
+    'chart.js',
+    'xeditable'
     
     ]);
 

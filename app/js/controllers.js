@@ -32,5 +32,12 @@ foodWebControllers.controller('RecommendationsCtrl', ['$scope',
 
 foodWebControllers.controller('ProfileCtrl', ['$scope',
 	function($scope) {
-
+		$scope.user = {
+			name: 'Alex Leung',
+			age: '19',
+			weight: '150 lb',
+			height: '5 ft 11 in',
+			gender: 'Male',
+			email: 'alalexl@gmail.com'
+		};
 	}]);
