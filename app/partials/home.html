@@ -1,24 +1,39 @@
 
 <div class="container-fluid">
-<br>
+	<center><h3>Totals for the day</h3>
 	<div class="row-fluid">
-
-		
-		<br>
-		<div class="row-fluid">
-			<div class="col-md-6">
-				<center><h2>Calories consumed today</h2></center>
-				<br>
-				<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
-			</div>
-
-
-			<div class="col-md-6">
-				<canvas id="bar" class="chart chart-bar" chart-data="barData" chart-labels="labels" chart-legend="true"></canvas>
-			</div>
-
+		<div class="col-md-4">
+			<center><h4>Carbohydrates</h4></center>
+			<br>
+			<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
 		</div>
-
+		<div class="col-md-4">
+			<center><h4>Calories</h4></center>
+			<br>
+			<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
+		</div>
+		<div class="col-md-4">
+			<center><h4>Proteins</h4></center>
+			<br>
+			<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
+		</div>
+	</div>		
+	<br>
+	<div class="row-fluid">
+		<div class="col-md-4">
+			<center><h4>Fats</h4></center>
+			<br>
+			<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
+		</div>
+		<div class="col-md-4">
+			<center><h4>Caloric Intake vs Daily Needs</h4></center>
+			<br><br>
+			<canvas id="bar" class="chart chart-bar" chart-data="barData" chart-labels="barLabels" chart-series="series" chart-legend="true"></canvas>
+		</div>
+		<div class="col-md-4">
+			<center><h4>Sugars</h4></center>
+			<br>
+			<canvas id="pie" class="chart chart-pie" chart-data="pieData" chart-labels="labels" chart-legend="true"</canvas>
+		</div>
 	</div>
-
 </div>
